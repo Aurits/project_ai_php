@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0" />
     <title>SkinScan Admin Dashboard</title>
     <link rel="shortcut icon" href="assets/img/favicon.png" />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/plugins/feather/feather.css" />
     <link rel="stylesheet" href="assets/plugins/icons/flags/flags.css" />
@@ -173,6 +173,19 @@
                                 <li>
                                     <a href="patient-dashboard.php">Patient Dashboard</a>
                                 </li>
+                            </ul>
+                        </li>
+
+                        <!-- Users Section -->
+                        <li class="menu-title">
+                            <span>Users</span>
+                        </li>
+                        <li class="submenu">
+                            <a href="#"><i class="fas fa-users"></i> <span> User Management</span>
+                                <span class="menu-arrow"></span></a>
+                            <ul>
+                                <li><a href="users.php">User List</a></li>
+                                <li><a href="add-user.php">Add User</a></li>
                             </ul>
                         </li>
 
