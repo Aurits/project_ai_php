@@ -6,9 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0" />
     <title>Admin Dashboard</title>
     <link rel="shortcut icon" href="assets/img/favicon.png" />
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700&display=swap"
-        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/plugins/feather/feather.css" />
     <link rel="stylesheet" href="assets/plugins/icons/flags/flags.css" />
@@ -54,10 +52,8 @@
                     <div class="dropdown-menu">
                         <div class="noti-content">
                             <div>
-                                <a class="dropdown-item" href="javascript:;"><i
-                                        class="flag flag-lr me-2"></i>English</a>
-                                <a class="dropdown-item" href="javascript:;"><i
-                                        class="flag flag-bl me-2"></i>Francais</a>
+                                <a class="dropdown-item" href="javascript:;"><i class="flag flag-lr me-2"></i>English</a>
+                                <a class="dropdown-item" href="javascript:;"><i class="flag flag-bl me-2"></i>Francais</a>
                                 <a class="dropdown-item" href="javascript:;"><i class="flag flag-cn me-2"></i>Turkce</a>
                             </div>
                         </div>
@@ -79,8 +75,7 @@
                                     <a href="#">
                                         <div class="media d-flex">
                                             <span class="avatar avatar-sm flex-shrink-0">
-                                                <img class="avatar-img rounded-circle" alt="User Image"
-                                                    src="assets/img/profiles/avatar-02.jpg" />
+                                                <img class="avatar-img rounded-circle" alt="User Image" src="assets/img/profiles/avatar-02.jpg" />
                                             </span>
                                             <div class="media-body flex-grow-1">
                                                 <p class="noti-details">
@@ -99,8 +94,7 @@
                                     <a href="#">
                                         <div class="media d-flex">
                                             <span class="avatar avatar-sm flex-shrink-0">
-                                                <img class="avatar-img rounded-circle" alt="User Image"
-                                                    src="assets/img/profiles/avatar-11.jpg" />
+                                                <img class="avatar-img rounded-circle" alt="User Image" src="assets/img/profiles/avatar-11.jpg" />
                                             </span>
                                             <div class="media-body flex-grow-1">
                                                 <p class="noti-details">
@@ -119,8 +113,7 @@
                                     <a href="#">
                                         <div class="media d-flex">
                                             <span class="avatar avatar-sm flex-shrink-0">
-                                                <img class="avatar-img rounded-circle" alt="User Image"
-                                                    src="assets/img/profiles/avatar-17.jpg" />
+                                                <img class="avatar-img rounded-circle" alt="User Image" src="assets/img/profiles/avatar-17.jpg" />
                                             </span>
                                             <div class="media-body flex-grow-1">
                                                 <p class="noti-details">
@@ -139,8 +132,7 @@
                                     <a href="#">
                                         <div class="media d-flex">
                                             <span class="avatar avatar-sm flex-shrink-0">
-                                                <img class="avatar-img rounded-circle" alt="User Image"
-                                                    src="assets/img/profiles/avatar-13.jpg" />
+                                                <img class="avatar-img rounded-circle" alt="User Image" src="assets/img/profiles/avatar-13.jpg" />
                                             </span>
                                             <div class="media-body flex-grow-1">
                                                 <p class="noti-details">
@@ -172,8 +164,7 @@
                 <li class="nav-item dropdown has-arrow new-user-menus">
                     <a href="#" class="dropdown-toggle nav-link" data-bs-toggle="dropdown">
                         <span class="user-img">
-                            <img class="rounded-circle" src="assets/img/profiles/avatar-01.jpg" width="31"
-                                alt="Soeng Souy" />
+                            <img class="rounded-circle" src="assets/img/profiles/avatar-01.jpg" width="31" alt="Soeng Souy" />
                             <div class="user-text">
                                 <h6>Soeng Souy</h6>
                                 <p class="text-muted mb-0">Administrator</p>
@@ -183,8 +174,7 @@
                     <div class="dropdown-menu">
                         <div class="user-header">
                             <div class="avatar avatar-sm">
-                                <img src="assets/img/profiles/avatar-01.jpg" alt="User Image"
-                                    class="avatar-img rounded-circle" />
+                                <img src="assets/img/profiles/avatar-01.jpg" alt="User Image" class="avatar-img rounded-circle" />
                             </div>
                             <div class="user-text">
                                 <h6>Soeng Souy</h6>
@@ -214,10 +204,7 @@
                                     <a href="index.html" class="active">Admin Dashboard</a>
                                 </li>
                                 <li>
-                                    <a href="teacher-dashboard.html">Teacher Dashboard</a>
-                                </li>
-                                <li>
-                                    <a href="student-dashboard.html">Student Dashboard</a>
+                                    <a href="student-dashboard.html">Patient Dashboard</a>
                                 </li>
                             </ul>
                         </li>
@@ -225,10 +212,10 @@
                             <a href="#"><i class="fas fa-graduation-cap"></i> <span> Students</span>
                                 <span class="menu-arrow"></span></a>
                             <ul>
-                                <li><a href="students.html">Student List</a></li>
-                                <li><a href="student-details.html">Student View</a></li>
-                                <li><a href="add-student.html">Student Add</a></li>
-                                <li><a href="edit-student.html">Student Edit</a></li>
+                                <li><a href="students.html">User List</a></li>
+                                <li><a href="student-details.html">User View</a></li>
+                                <li><a href="add-student.html">User Add</a></li>
+                                <li><a href="edit-student.html">User Edit</a></li>
                             </ul>
                         </li>
                         <li class="submenu">
