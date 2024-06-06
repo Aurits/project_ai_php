@@ -203,25 +203,6 @@
                             </ul>
                         </li>
                         <li class="submenu">
-                            <a href="#"><i class="fas fa-chalkboard-teacher"></i>
-                                <span> Teachers</span> <span class="menu-arrow"></span></a>
-                            <ul>
-                                <li><a href="teachers.html">Teacher List</a></li>
-                                <li><a href="teacher-details.html">Teacher View</a></li>
-                                <li><a href="add-teacher.html">Teacher Add</a></li>
-                                <li><a href="edit-teacher.html">Teacher Edit</a></li>
-                            </ul>
-                        </li>
-                        <li class="submenu">
-                            <a href="#"><i class="fas fa-building"></i> <span> Departments</span>
-                                <span class="menu-arrow"></span></a>
-                            <ul>
-                                <li><a href="departments.html">Department List</a></li>
-                                <li><a href="add-department.html">Department Add</a></li>
-                                <li><a href="edit-department.html">Department Edit</a></li>
-                            </ul>
-                        </li>
-                        <li class="submenu">
                             <a href="#"><i class="fas fa-book-reader"></i> <span> Subjects</span>
                                 <span class="menu-arrow"></span></a>
                             <ul>
@@ -246,18 +227,13 @@
                                 <li><a href="add-salary.html">Add Salary</a></li>
                             </ul>
                         </li>
+
                         <li>
-                            <a href="holiday.html"><i class="fas fa-holly-berry"></i> <span>Holiday</span></a>
+                            <a href="scan.php"><i class="fas fa-clipboard-list"></i>
+                                <span>Scan Upload</span></a>
                         </li>
                         <li>
-                            <a href="fees.html"><i class="fas fa-comment-dollar"></i> <span>Fees</span></a>
-                        </li>
-                        <li>
-                            <a href="exam.html"><i class="fas fa-clipboard-list"></i>
-                                <span>Exam list</span></a>
-                        </li>
-                        <li>
-                            <a href="event.html"><i class="fas fa-calendar-day"></i> <span>Events</span></a>
+                            <a href="notification.php"><i class="fas fa-calendar-day"></i> <span>Notification</span></a>
                         </li>
 
                         <li class="submenu">
