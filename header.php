@@ -146,9 +146,8 @@
                             <p class="text-muted mb-0">Administrator</p>
                         </div>
                     </div>
-                    <a class="dropdown-item" href="profile.html">My Profile</a>
-                    <a class="dropdown-item" href="settings.html">Settings</a>
-                    <a class="dropdown-item" href="login.html">Logout</a>
+                    <a class="dropdown-item" href="profile.php">My Profile</a>
+                    <a class="dropdown-item" href="login.php">Logout</a>
                 </div>
             </li>
         </div>
@@ -208,7 +207,7 @@
                             <span>Pages</span>
                         </li>
                         <li>
-                            <a href="profile.html"><i class="fas fa-user"></i> <span>Profile</span></a>
+                            <a href="profile.php"><i class="fas fa-user"></i> <span>Profile</span></a>
                         </li>
                         <li>
                             <a href="notifications.php"><i class="fas fa-bell"></i> <span>Notifications</span></a>
@@ -221,9 +220,9 @@
                         <li class="submenu">
                             <a href="#"><i class="fas fa-shield-alt"></i> <span> Authentication </span> <span class="menu-arrow"></span></a>
                             <ul>
-                                <li><a href="login.html">Login</a></li>
-                                <li><a href="register.html">Register</a></li>
-                                <li><a href="forgot-password.html">Forgot Password</a></li>
+                                <li><a href="login.php">Login</a></li>
+                                <li><a href="register.php">Register</a></li>
+                                <li><a href="forgot-password.php">Forgot Password</a></li>
                             </ul>
                         </li>
                     </ul>
