@@ -202,30 +202,13 @@
                                 <li><a href="edit-student.html">User Edit</a></li>
                             </ul>
                         </li>
-                        <li class="submenu">
-                            <a href="#"><i class="fas fa-book-reader"></i> <span> Subjects</span>
-                                <span class="menu-arrow"></span></a>
-                            <ul>
-                                <li><a href="subjects.html">Subject List</a></li>
-                                <li><a href="add-subject.html">Subject Add</a></li>
-                                <li><a href="edit-subject.html">Subject Edit</a></li>
-                            </ul>
-                        </li>
 
                         <li class="menu-title">
                             <span>Management</span>
                         </li>
-                        <li class="submenu">
-                            <a href="#"><i class="fas fa-file-invoice-dollar"></i>
-                                <span> Accounts</span> <span class="menu-arrow"></span></a>
-                            <ul>
-                                <li><a href="fees-collections.html">Fees Collection</a></li>
-                                <li><a href="expenses.html">Expenses</a></li>
-                                <li><a href="salary.html">Salary</a></li>
-                                <li><a href="add-fees-collection.html">Add Fees</a></li>
-                                <li><a href="add-expenses.html">Add Expenses</a></li>
-                                <li><a href="add-salary.html">Add Salary</a></li>
-                            </ul>
+                        <li>
+                            <a href="scans.php"><i class="fas fa-clipboard-list"></i>
+                                <span>Scans</span></a>
                         </li>
 
                         <li>
@@ -233,22 +216,10 @@
                                 <span>Scan Upload</span></a>
                         </li>
                         <li>
-                            <a href="notification.php"><i class="fas fa-calendar-day"></i> <span>Notification</span></a>
+                            <a href="notifications.php"><i class="fas fa-calendar-day"></i>
+                                <span>Notification</span></a>
                         </li>
 
-                        <li class="submenu">
-                            <a href="#"><i class="fa fa-newspaper"></i> <span> Blogs</span>
-                                <span class="menu-arrow"></span>
-                            </a>
-                            <ul>
-                                <li><a href="blog.html">All Blogs</a></li>
-                                <li><a href="add-blog.html">Add Blog</a></li>
-                                <li><a href="edit-blog.html">Edit Blog</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="settings.html"><i class="fas fa-cog"></i> <span>Settings</span></a>
-                        </li>
                         <li class="menu-title">
                             <span>Pages</span>
                         </li>
