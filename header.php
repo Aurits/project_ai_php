@@ -246,20 +246,7 @@
                                 <li><a href="edit-subject.html">Subject Edit</a></li>
                             </ul>
                         </li>
-                        <li class="submenu">
-                            <a href="#"><i class="fas fa-clipboard"></i> <span> Invoices</span>
-                                <span class="menu-arrow"></span></a>
-                            <ul>
-                                <li><a href="invoices.html">Invoices List</a></li>
-                                <li><a href="invoice-grid.html">Invoices Grid</a></li>
-                                <li><a href="add-invoice.html">Add Invoices</a></li>
-                                <li><a href="edit-invoice.html">Edit Invoices</a></li>
-                                <li><a href="view-invoice.html">Invoices Details</a></li>
-                                <li>
-                                    <a href="invoices-settings.html">Invoices Settings</a>
-                                </li>
-                            </ul>
-                        </li>
+
                         <li class="menu-title">
                             <span>Management</span>
                         </li>
@@ -288,12 +275,7 @@
                         <li>
                             <a href="event.html"><i class="fas fa-calendar-day"></i> <span>Events</span></a>
                         </li>
-                        <li>
-                            <a href="time-table.html"><i class="fas fa-table"></i> <span>Time Table</span></a>
-                        </li>
-                        <li>
-                            <a href="library.html"><i class="fas fa-book"></i> <span>Library</span></a>
-                        </li>
+
                         <li class="submenu">
                             <a href="#"><i class="fa fa-newspaper"></i> <span> Blogs</span>
                                 <span class="menu-arrow"></span>
@@ -317,26 +299,8 @@
                                 <li><a href="login.html">Login</a></li>
                                 <li><a href="register.html">Register</a></li>
                                 <li><a href="forgot-password.html">Forgot Password</a></li>
-                                <li><a href="error-404.html">Error Page</a></li>
+
                             </ul>
-                        </li>
-                        <li>
-                            <a href="blank-page.html"><i class="fas fa-file"></i> <span>Blank Page</span></a>
-                        </li>
-                        <li class="menu-title">
-                            <span>Others</span>
-                        </li>
-                        <li>
-                            <a href="sports.html"><i class="fas fa-baseball-ball"></i> <span>Sports</span></a>
-                        </li>
-                        <li>
-                            <a href="hostel.html"><i class="fas fa-hotel"></i> <span>Hostel</span></a>
-                        </li>
-                        <li>
-                            <a href="transport.html"><i class="fas fa-bus"></i> <span>Transport</span></a>
-                        </li>
-                        <li class="menu-title">
-                            <span>UI Interface</span>
                         </li>
 
                     </ul>
