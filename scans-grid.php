@@ -62,13 +62,13 @@
                                         <div class="card-body">
                                             <div class="student-box flex-fill">
                                                 <div class="student-img">
-                                                    <a href="teacher-details.html">
+                                                    <a href="scan-details.php">
                                                         <img class="img-fluid" alt="Students Info" src="assets/img/skin/image.jpeg" />
                                                     </a>
                                                 </div>
                                                 <div class="student-content pb-0">
                                                     <h5>
-                                                        <a href="teacher-details.html">Scan 101</a>
+                                                        <a href="scan-details.php">Scan 101</a>
                                                     </h5>
                                                     <h6>Type: X-Ray</h6>
                                                     <p>Date: 2024-06-01</p>
