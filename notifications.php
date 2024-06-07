@@ -4,41 +4,44 @@
         <div class="page-header">
             <div class="row align-items-center">
                 <div class="col">
-                    <h3 class="page-title">Subjects</h3>
+                    <h3 class="page-title">Notifications</h3>
                     <ul class="breadcrumb">
                         <li class="breadcrumb-item">
                             <a href="index.html">Dashboard</a>
                         </li>
-                        <li class="breadcrumb-item active">Subjects</li>
+                        <li class="breadcrumb-item active">Notifications</li>
                     </ul>
                 </div>
             </div>
         </div>
 
-        <div class="student-group-form">
+        <!-- Notification Filters -->
+        <div class="notification-filters">
             <div class="row">
                 <div class="col-lg-3 col-md-6">
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Search by ID ..." />
+                        <input type="text" class="form-control" placeholder="Search by ID..." />
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Search by Name ..." />
+                        <input type="text" class="form-control" placeholder="Search by Type..." />
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Search by Class ..." />
+                        <input type="text" class="form-control" placeholder="Search by Date..." />
                     </div>
                 </div>
                 <div class="col-lg-2">
-                    <div class="search-student-btn">
-                        <button type="btn" class="btn btn-primary">Search</button>
+                    <div class="search-notification-btn">
+                        <button type="button" class="btn btn-primary">Search</button>
                     </div>
                 </div>
             </div>
         </div>
+
+        <!-- Notifications Table -->
         <div class="row">
             <div class="col-sm-12">
                 <div class="card card-table">
@@ -46,19 +49,22 @@
                         <div class="page-header">
                             <div class="row align-items-center">
                                 <div class="col">
-                                    <h3 class="page-title">Subjects</h3>
+                                    <h3 class="page-title">Recent Notifications</h3>
                                 </div>
                                 <div class="col-auto text-end float-end ms-auto download-grp">
-                                    <a href="#" class="btn btn-outline-primary me-2"><i class="fas fa-download"></i>
-                                        Download</a>
-                                    <a href="add-subject.html" class="btn btn-primary"><i class="fas fa-plus"></i></a>
+                                    <a href="#" class="btn btn-outline-primary me-2">
+                                        <i class="fas fa-download"></i> Download
+                                    </a>
+                                    <a href="add-notification.html" class="btn btn-primary">
+                                        <i class="fas fa-plus"></i> Add Notification
+                                    </a>
                                 </div>
                             </div>
                         </div>
 
                         <div class="table-responsive">
                             <table class="table border-0 star-student table-hover table-center mb-0 datatable table-striped">
-                                <thead class="student-thread">
+                                <thead class="notification-thread">
                                     <tr>
                                         <th>
                                             <div class="form-check check-tables">
@@ -66,8 +72,9 @@
                                             </div>
                                         </th>
                                         <th>ID</th>
-                                        <th>Name</th>
-                                        <th>Class</th>
+                                        <th>Type</th>
+                                        <th>Date</th>
+                                        <th>Status</th>
                                         <th class="text-end">Action</th>
                                     </tr>
                                 </thead>
@@ -78,20 +85,19 @@
                                                 <input class="form-check-input" type="checkbox" value="something" />
                                             </div>
                                         </td>
-                                        <td>PRE2209</td>
+                                        <td>NOT001</td>
+                                        <td>System Alert</td>
+                                        <td>2024-06-01</td>
                                         <td>
-                                            <h2>
-                                                <a>Mathematics</a>
-                                            </h2>
+                                            <span class="badge bg-info">Read</span>
                                         </td>
-                                        <td>5</td>
                                         <td class="text-end">
                                             <div class="actions">
                                                 <a href="javascript:;" class="btn btn-sm bg-success-light me-2">
-                                                    <i class="feather-eye"></i>
+                                                    <i class="feather-eye"></i> View
                                                 </a>
-                                                <a href="edit-subject.html" class="btn btn-sm bg-danger-light">
-                                                    <i class="feather-edit"></i>
+                                                <a href="edit-notification.html" class="btn btn-sm bg-danger-light">
+                                                    <i class="feather-edit"></i> Edit
                                                 </a>
                                             </div>
                                         </td>
@@ -102,20 +108,19 @@
                                                 <input class="form-check-input" type="checkbox" value="something" />
                                             </div>
                                         </td>
-                                        <td>PRE2213</td>
+                                        <td>NOT002</td>
+                                        <td>User Message</td>
+                                        <td>2024-06-05</td>
                                         <td>
-                                            <h2>
-                                                <a>History</a>
-                                            </h2>
+                                            <span class="badge bg-warning">Unread</span>
                                         </td>
-                                        <td>6</td>
                                         <td class="text-end">
                                             <div class="actions">
                                                 <a href="javascript:;" class="btn btn-sm bg-success-light me-2">
-                                                    <i class="feather-eye"></i>
+                                                    <i class="feather-eye"></i> View
                                                 </a>
-                                                <a href="edit-subject.html" class="btn btn-sm bg-danger-light">
-                                                    <i class="feather-edit"></i>
+                                                <a href="edit-notification.html" class="btn btn-sm bg-danger-light">
+                                                    <i class="feather-edit"></i> Edit
                                                 </a>
                                             </div>
                                         </td>
@@ -126,20 +131,19 @@
                                                 <input class="form-check-input" type="checkbox" value="something" />
                                             </div>
                                         </td>
-                                        <td>PRE2143</td>
+                                        <td>NOT003</td>
+                                        <td>Scan Complete</td>
+                                        <td>2024-06-07</td>
                                         <td>
-                                            <h2>
-                                                <a>Science</a>
-                                            </h2>
+                                            <span class="badge bg-info">Read</span>
                                         </td>
-                                        <td>3</td>
                                         <td class="text-end">
                                             <div class="actions">
                                                 <a href="javascript:;" class="btn btn-sm bg-success-light me-2">
-                                                    <i class="feather-eye"></i>
+                                                    <i class="feather-eye"></i> View
                                                 </a>
-                                                <a href="edit-subject.html" class="btn btn-sm bg-danger-light">
-                                                    <i class="feather-edit"></i>
+                                                <a href="edit-notification.html" class="btn btn-sm bg-danger-light">
+                                                    <i class="feather-edit"></i> Edit
                                                 </a>
                                             </div>
                                         </td>
@@ -150,20 +154,19 @@
                                                 <input class="form-check-input" type="checkbox" value="something" />
                                             </div>
                                         </td>
-                                        <td>PRE2431</td>
+                                        <td>NOT004</td>
+                                        <td>System Update</td>
+                                        <td>2024-06-08</td>
                                         <td>
-                                            <h2>
-                                                <a>Geography</a>
-                                            </h2>
+                                            <span class="badge bg-info">Read</span>
                                         </td>
-                                        <td>8</td>
                                         <td class="text-end">
                                             <div class="actions">
                                                 <a href="javascript:;" class="btn btn-sm bg-success-light me-2">
-                                                    <i class="feather-eye"></i>
+                                                    <i class="feather-eye"></i> View
                                                 </a>
-                                                <a href="edit-subject.html" class="btn btn-sm bg-danger-light">
-                                                    <i class="feather-edit"></i>
+                                                <a href="edit-notification.html" class="btn btn-sm bg-danger-light">
+                                                    <i class="feather-edit"></i> Edit
                                                 </a>
                                             </div>
                                         </td>
@@ -174,44 +177,19 @@
                                                 <input class="form-check-input" type="checkbox" value="something" />
                                             </div>
                                         </td>
-                                        <td>PRE1534</td>
+                                        <td>NOT005</td>
+                                        <td>New Feature</td>
+                                        <td>2024-06-09</td>
                                         <td>
-                                            <h2>
-                                                <a>Botony</a>
-                                            </h2>
+                                            <span class="badge bg-warning">Unread</span>
                                         </td>
-                                        <td>9</td>
                                         <td class="text-end">
                                             <div class="actions">
                                                 <a href="javascript:;" class="btn btn-sm bg-success-light me-2">
-                                                    <i class="feather-eye"></i>
+                                                    <i class="feather-eye"></i> View
                                                 </a>
-                                                <a href="edit-subject.html" class="btn btn-sm bg-danger-light">
-                                                    <i class="feather-edit"></i>
-                                                </a>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div class="form-check check-tables">
-                                                <input class="form-check-input" type="checkbox" value="something" />
-                                            </div>
-                                        </td>
-                                        <td>PRE2153</td>
-                                        <td>
-                                            <h2>
-                                                <a>English</a>
-                                            </h2>
-                                        </td>
-                                        <td>4</td>
-                                        <td class="text-end">
-                                            <div class="actions">
-                                                <a href="javascript:;" class="btn btn-sm bg-success-light me-2">
-                                                    <i class="feather-eye"></i>
-                                                </a>
-                                                <a href="edit-subject.html" class="btn btn-sm bg-danger-light">
-                                                    <i class="feather-edit"></i>
+                                                <a href="edit-notification.html" class="btn btn-sm bg-danger-light">
+                                                    <i class="feather-edit"></i> Edit
                                                 </a>
                                             </div>
                                         </td>
@@ -226,7 +204,7 @@
     </div>
 
     <footer>
-        <p>Copyright © 2022 Dreamguys.</p>
+        <p>&copy; 2024 Your Company.</p>
     </footer>
 </div>
 
