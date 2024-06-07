@@ -97,7 +97,7 @@
                                                     <i class="feather-eye"></i>
                                                 </a>
                                                 <a href="#" class="btn btn-sm bg-danger-light">
-                                                    <i class="feather-delete"></i>
+                                                    <i class="feather-trash"></i>
                                                 </a>
                                             </div>
                                         </td>
@@ -119,8 +119,8 @@
                                                 <a href="javascript:;" class="btn btn-sm bg-success-light me-2">
                                                     <i class="feather-eye"></i> View
                                                 </a>
-                                                <a href="edit-notification.html" class="btn btn-sm bg-danger-light">
-                                                    <i class="feather-edit"></i> Edit
+                                                <a href="#" class="btn btn-sm bg-danger-light">
+                                                    <i class="feather-trash"></i>
                                                 </a>
                                             </div>
                                         </td>
@@ -142,8 +142,8 @@
                                                 <a href="javascript:;" class="btn btn-sm bg-success-light me-2">
                                                     <i class="feather-eye"></i> View
                                                 </a>
-                                                <a href="edit-notification.html" class="btn btn-sm bg-danger-light">
-                                                    <i class="feather-edit"></i> Edit
+                                                <a href="#" class="btn btn-sm bg-danger-light">
+                                                    <i class="feather-trash"></i>
                                                 </a>
                                             </div>
                                         </td>
@@ -165,8 +165,8 @@
                                                 <a href="javascript:;" class="btn btn-sm bg-success-light me-2">
                                                     <i class="feather-eye"></i> View
                                                 </a>
-                                                <a href="edit-notification.html" class="btn btn-sm bg-danger-light">
-                                                    <i class="feather-edit"></i> Edit
+                                                <a href="#" class="btn btn-sm bg-danger-light">
+                                                    <i class="feather-trash"></i>
                                                 </a>
                                             </div>
                                         </td>
@@ -188,8 +188,8 @@
                                                 <a href="javascript:;" class="btn btn-sm bg-success-light me-2">
                                                     <i class="feather-eye"></i> View
                                                 </a>
-                                                <a href="edit-notification.html" class="btn btn-sm bg-danger-light">
-                                                    <i class="feather-edit"></i> Edit
+                                                <a href="#" class="btn btn-sm bg-danger-light">
+                                                    <i class="feather-trash"></i>
                                                 </a>
                                             </div>
                                         </td>

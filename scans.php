@@ -109,7 +109,7 @@
                                                     <i class="feather-eye"></i>
                                                 </a>
                                                 <a href="edit-scan.html" class="btn btn-sm bg-danger-light">
-                                                    <i class="feather-edit"></i>
+                                                    <i class="feather-trash"></i>
                                                 </a>
                                             </div>
                                         </td>
@@ -138,7 +138,7 @@
                                                     <i class="feather-eye"></i>
                                                 </a>
                                                 <a href="edit-scan.html" class="btn btn-sm bg-danger-light">
-                                                    <i class="feather-edit"></i>
+                                                    <i class="feather-trash"></i>
                                                 </a>
                                             </div>
                                         </td>
