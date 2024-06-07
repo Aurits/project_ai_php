@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0" />
     <title>SkinScan Admin Dashboard</title>
     <link rel="shortcut icon" href="assets/img/favicon.png" />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700&display=swap" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700&display=swap"
+        rel="stylesheet" />
     <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/plugins/feather/feather.css" />
     <link rel="stylesheet" href="assets/plugins/icons/flags/flags.css" />
@@ -24,7 +26,7 @@
                     <img src="assets/img/logo.png" alt="Logo" />
                 </a>
                 <a href="index.php" class="logo logo-small">
-                    <img src="assets/img/logo-small.png" alt="Logo" width="30" height="30" />
+                    <img src="a" alt="Logo" width="30" height="30" />
                 </a>
             </div>
             <div class="menu-toggle">
@@ -60,7 +62,8 @@
                                 <a href="#">
                                     <div class="media d-flex">
                                         <span class="avatar avatar-sm flex-shrink-0">
-                                            <img class="avatar-img rounded-circle" alt="User Image" src="assets/img/profiles/avatar-02.jpg" />
+                                            <img class="avatar-img rounded-circle" alt="User Image"
+                                                src="assets/img/profiles/avatar-02.jpg" />
                                         </span>
                                         <div class="media-body flex-grow-1">
                                             <p class="noti-details">
@@ -78,7 +81,8 @@
                                 <a href="#">
                                     <div class="media d-flex">
                                         <span class="avatar avatar-sm flex-shrink-0">
-                                            <img class="avatar-img rounded-circle" alt="User Image" src="assets/img/profiles/avatar-11.jpg" />
+                                            <img class="avatar-img rounded-circle" alt="User Image"
+                                                src="assets/img/profiles/avatar-11.jpg" />
                                         </span>
                                         <div class="media-body flex-grow-1">
                                             <p class="noti-details">
@@ -96,7 +100,8 @@
                                 <a href="#">
                                     <div class="media d-flex">
                                         <span class="avatar avatar-sm flex-shrink-0">
-                                            <img class="avatar-img rounded-circle" alt="User Image" src="assets/img/profiles/avatar-17.jpg" />
+                                            <img class="avatar-img rounded-circle" alt="User Image"
+                                                src="assets/img/profiles/avatar-17.jpg" />
                                         </span>
                                         <div class="media-body flex-grow-1">
                                             <p class="noti-details">
@@ -129,7 +134,8 @@
             <li class="nav-item dropdown has-arrow new-user-menus">
                 <a href="#" class="dropdown-toggle nav-link" data-bs-toggle="dropdown">
                     <span class="user-img">
-                        <img class="rounded-circle" src="assets/img/profiles/avatar-01.jpg" width="31" alt="Admin User" />
+                        <img class="rounded-circle" src="assets/img/profiles/avatar-01.jpg" width="31"
+                            alt="Admin User" />
                         <div class="user-text">
                             <h6>Admin User</h6>
                             <p class="text-muted mb-0">Administrator</p>
@@ -139,7 +145,8 @@
                 <div class="dropdown-menu">
                     <div class="user-header">
                         <div class="avatar avatar-sm">
-                            <img src="assets/img/profiles/avatar-01.jpg" alt="User Image" class="avatar-img rounded-circle" />
+                            <img src="assets/img/profiles/avatar-01.jpg" alt="User Image"
+                                class="avatar-img rounded-circle" />
                         </div>
                         <div class="user-text">
                             <h6>Admin User</h6>
@@ -218,7 +225,8 @@
                             <span>Authentication</span>
                         </li>
                         <li class="submenu">
-                            <a href="#"><i class="fas fa-shield-alt"></i> <span> Authentication </span> <span class="menu-arrow"></span></a>
+                            <a href="#"><i class="fas fa-shield-alt"></i> <span> Authentication </span> <span
+                                    class="menu-arrow"></span></a>
                             <ul>
                                 <li><a href="login.php">Login</a></li>
                                 <li><a href="register.php">Register</a></li>
