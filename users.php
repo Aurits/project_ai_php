@@ -8,7 +8,7 @@
                         <h3 class="page-title">User Management</h3>
                         <ul class="breadcrumb">
                             <li class="breadcrumb-item">
-                                <a href="users.html">Users</a>
+                                <a href="users.php">Users</a>
                             </li>
                             <li class="breadcrumb-item active">All Users</li>
                         </ul>
@@ -52,11 +52,11 @@
                                     <h3 class="page-title">Users</h3>
                                 </div>
                                 <div class="col-auto text-end float-end ms-auto download-grp">
-                                    <a href="students.html" class="btn btn-outline-gray me-2 active"><i class="feather-list"></i></a>
-                                    <a href="students-grid.html" class="btn btn-outline-gray me-2"><i class="feather-grid"></i></a>
+                                    <a href="users.php" class="btn btn-outline-gray me-2 active"><i class="feather-list"></i></a>
+
                                     <a href="#" class="btn btn-outline-primary me-2"><i class="fas fa-download"></i>
                                         Download</a>
-                                    <a href="add-student.html" class="btn btn-primary"><i class="fas fa-plus"></i></a>
+                                    <a href="add-user.php" class="btn btn-primary"><i class="fas fa-plus"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -89,8 +89,8 @@
                                         <td>USR2209</td>
                                         <td>
                                             <h2 class="table-avatar">
-                                                <a href="user-details.html" class="avatar avatar-sm me-2"><img class="avatar-img rounded-circle" src="assets/img/profiles/avatar-01.jpg" alt="User Image" /></a>
-                                                <a href="user-details.html">Dr. Aaliyah</a>
+                                                <a href="" class="avatar avatar-sm me-2"><img class="avatar-img rounded-circle" src="assets/img/profiles/avatar-01.jpg" alt="User Image" /></a>
+                                                <a href="">Dr. Aaliyah</a>
                                             </h2>
                                         </td>
                                         <td>Doctor</td>
@@ -100,7 +100,7 @@
                                         <td class="text-end">
                                             <div class="actions">
                                                 <a href="javascript:;" class="btn btn-sm bg-success-light me-2"><i class="feather-eye"></i></a>
-                                                <a href="edit-user.html" class="btn btn-sm bg-danger-light"><i class="feather-edit"></i></a>
+                                                <a href="edit-user.php" class="btn btn-sm bg-danger-light"><i class="feather-edit"></i></a>
                                             </div>
                                         </td>
                                     </tr>
@@ -113,8 +113,8 @@
                                         <td>USR2213</td>
                                         <td>
                                             <h2 class="table-avatar">
-                                                <a href="user-details.html" class="avatar avatar-sm me-2"><img class="avatar-img rounded-circle" src="assets/img/profiles/avatar-03.jpg" alt="User Image" /></a>
-                                                <a href="user-details.html">Malynne</a>
+                                                <a href="" class="avatar avatar-sm me-2"><img class="avatar-img rounded-circle" src="assets/img/profiles/avatar-03.jpg" alt="User Image" /></a>
+                                                <a href="">Malynne</a>
                                             </h2>
                                         </td>
                                         <td>Patient</td>
@@ -124,7 +124,7 @@
                                         <td class="text-end">
                                             <div class="actions">
                                                 <a href="javascript:;" class="btn btn-sm bg-success-light me-2"><i class="feather-eye"></i></a>
-                                                <a href="edit-user.html" class="btn btn-sm bg-danger-light"><i class="feather-edit"></i></a>
+                                                <a href="edit-user.php" class="btn btn-sm bg-danger-light"><i class="feather-edit"></i></a>
                                             </div>
                                         </td>
                                     </tr>
@@ -137,8 +137,8 @@
                                         <td>USR1234</td>
                                         <td>
                                             <h2 class="table-avatar">
-                                                <a href="user-details.html" class="avatar avatar-sm me-2"><img class="avatar-img rounded-circle" src="assets/img/profiles/avatar-10.jpg" alt="User Image" /></a>
-                                                <a href="user-details.html">Nathan Humphries</a>
+                                                <a href="" class="avatar avatar-sm me-2"><img class="avatar-img rounded-circle" src="assets/img/profiles/avatar-10.jpg" alt="User Image" /></a>
+                                                <a href="">Nathan Humphries</a>
                                             </h2>
                                         </td>
                                         <td>Administrator</td>
@@ -148,7 +148,7 @@
                                         <td class="text-end">
                                             <div class="actions">
                                                 <a href="javascript:;" class="btn btn-sm bg-success-light me-2"><i class="feather-eye"></i></a>
-                                                <a href="edit-user.html" class="btn btn-sm bg-danger-light"><i class="feather-edit"></i></a>
+                                                <a href="edit-user.php" class="btn btn-sm bg-danger-light"><i class="feather-edit"></i></a>
                                             </div>
                                         </td>
                                     </tr>
