@@ -9,7 +9,7 @@
                     <h3 class="page-title">Manage Scans</h3>
                     <ul class="breadcrumb">
                         <li class="breadcrumb-item">
-                            <a href="index.html">Dashboard</a>
+                            <a href="index.php">Dashboard</a>
                         </li>
                         <li class="breadcrumb-item active">Scans</li>
                     </ul>
@@ -94,8 +94,8 @@
                                         <td>SCAN1001</td>
                                         <td>
                                             <h2 class="table-avatar">
-                                                <a href="scan-details.html" class="avatar avatar-sm me-2"><img class="avatar-img rounded-circle" src="assets/img/profiles/avatar-02.jpg" alt="Patient Image" /></a>
-                                                <a href="scan-details.html">John Doe</a>
+                                                <a href="scan-details.php" class="avatar avatar-sm me-2"><img class="avatar-img rounded-circle" src="assets/img/profiles/avatar-02.jpg" alt="Patient Image" /></a>
+                                                <a href="">John Doe</a>
                                             </h2>
                                         </td>
                                         <td>CT Scan</td>
@@ -105,10 +105,10 @@
                                         <td>Completed</td>
                                         <td class="text-end">
                                             <div class="actions">
-                                                <a href="scan-details.html" class="btn btn-sm bg-success-light me-2">
+                                                <a href="scan-details.php" class="btn btn-sm bg-success-light me-2">
                                                     <i class="feather-eye"></i>
                                                 </a>
-                                                <a href="edit-scan.html" class="btn btn-sm bg-danger-light">
+                                                <a href="" class="btn btn-sm bg-danger-light">
                                                     <i class="feather-trash"></i>
                                                 </a>
                                             </div>
@@ -123,8 +123,8 @@
                                         <td>SCAN1002</td>
                                         <td>
                                             <h2 class="table-avatar">
-                                                <a href="scan-details.html" class="avatar avatar-sm me-2"><img class="avatar-img rounded-circle" src="assets/img/profiles/avatar-03.jpg" alt="Patient Image" /></a>
-                                                <a href="scan-details.html">Jane Smith</a>
+                                                <a href="scan-details.php" class="avatar avatar-sm me-2"><img class="avatar-img rounded-circle" src="assets/img/profiles/avatar-03.jpg" alt="Patient Image" /></a>
+                                                <a href="">Jane Smith</a>
                                             </h2>
                                         </td>
                                         <td>MRI</td>
@@ -134,10 +134,10 @@
                                         <td>Pending</td>
                                         <td class="text-end">
                                             <div class="actions">
-                                                <a href="scan-details.html" class="btn btn-sm bg-success-light me-2">
+                                                <a href="scan-details.php" class="btn btn-sm bg-success-light me-2">
                                                     <i class="feather-eye"></i>
                                                 </a>
-                                                <a href="edit-scan.html" class="btn btn-sm bg-danger-light">
+                                                <a href="" class="btn btn-sm bg-danger-light">
                                                     <i class="feather-trash"></i>
                                                 </a>
                                             </div>

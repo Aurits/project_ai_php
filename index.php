@@ -8,7 +8,7 @@
             <h3 class="page-title">Welcome Admin!</h3>
             <ul class="breadcrumb">
               <li class="breadcrumb-item">
-                <a href="index.html">Home</a>
+                <a href="index.php">Home</a>
               </li>
               <li class="breadcrumb-item active">Admin</li>
             </ul>
@@ -167,7 +167,7 @@
                       <div>SCAN2209</div>
                     </td>
                     <td class="text-nowrap">
-                      <a href="profile.html">
+                      <a href="profile.php">
                         <img class="rounded-circle" src="assets/img/profiles/avatar-02.jpg" width="25" alt="User" />
                         John Smith
                       </a>
@@ -183,7 +183,7 @@
                       <div>SCAN1245</div>
                     </td>
                     <td class="text-nowrap">
-                      <a href="profile.html">
+                      <a href="profile.php">
                         <img class="rounded-circle" src="assets/img/profiles/avatar-01.jpg" width="25" alt="User" />
                         Jolie Hoskins
                       </a>

@@ -9,7 +9,7 @@
                         <h3 class="page-title">Scan Details</h3>
                         <ul class="breadcrumb">
                             <li class="breadcrumb-item">
-                                <a href="scans.html">Scans</a>
+                                <a href="scans.php">Scans</a>
                             </li>
                             <li class="breadcrumb-item active">Scan Details</li>
                         </ul>

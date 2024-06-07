@@ -7,7 +7,7 @@
                     <h3 class="page-title">Scans</h3>
                     <ul class="breadcrumb">
                         <li class="breadcrumb-item">
-                            <a href="index.html">Dashboard</a>
+                            <a href="index.php">Dashboard</a>
                         </li>
                         <li class="breadcrumb-item active">Scans</li>
                     </ul>
@@ -49,8 +49,8 @@
                                     <h3 class="page-title">Scans</h3>
                                 </div>
                                 <div class="col-auto text-end float-end ms-auto download-grp">
-                                    <a href="teachers.html" class="btn btn-outline-gray me-2"><i class="feather-list"></i></a>
-                                    <a href="teachers-grid.html" class="btn btn-outline-gray me-2 active"><i class="feather-grid"></i></a>
+                                    <a href="scans.php" class="btn btn-outline-gray me-2"><i class="feather-list"></i></a>
+                                    <a href="scans-grid.php" class="btn btn-outline-gray me-2 active"><i class="feather-grid"></i></a>
                                 </div>
                             </div>
                         </div>

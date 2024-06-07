@@ -7,7 +7,7 @@
                     <h3 class="page-title">Add Notification</h3>
                     <ul class="breadcrumb">
                         <li class="breadcrumb-item">
-                            <a href="notifications.html">Notifications</a>
+                            <a href="notifications.php">Notifications</a>
                         </li>
                         <li class="breadcrumb-item active">Add Notification</li>
                     </ul>

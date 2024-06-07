@@ -7,7 +7,7 @@
                     <div class="page-sub-header">
                         <ul class="breadcrumb">
                             <li class="breadcrumb-item">
-                                <a href="uploads.html">Uploads</a>
+                                <a href="uploads.php">Uploads</a>
                             </li>
                             <li class="breadcrumb-item active">All Images</li>
                         </ul>
@@ -34,7 +34,7 @@
 
         <div class="blog-categories-btn pt-0">
             <div class="bank-details-btn">
-                <a href="blog.html" class="btn bank-cancel-btn me-2">Add</a>
+                <a href="uploads.php" class="btn bank-cancel-btn me-2">Add</a>
             </div>
         </div>
 
@@ -67,10 +67,10 @@
                                             <td>IMG001</td>
                                             <td>
                                                 <h2 class="table-avatar">
-                                                    <a href="scan-details.html" class="avatar avatar-sm me-2">
+                                                    <a href="scan-details.php" class="avatar avatar-sm me-2">
                                                         <img class="avatar-img rounded-circle" src="assets/img/skin/image.jpeg" alt="Skin Image" />
                                                     </a>
-                                                    <a href="scan-details.html">Skin Lesion 1</a>
+                                                    <a href="scan-details.php">Skin Lesion 1</a>
                                                 </h2>
                                             </td>
                                             <td>1 Feb 2024</td>
@@ -85,8 +85,8 @@
                                                     <a href="javascript:;" class="btn btn-sm bg-success-light me-2">
                                                         <i class="feather-eye"></i>
                                                     </a>
-                                                    <a href="edit-scan.html" class="btn btn-sm bg-danger-light">
-                                                        <i class="feather-edit"></i>
+                                                    <a href="" class="btn btn-sm bg-danger-light">
+                                                        <i class="feather-trash"></i>
                                                     </a>
                                                 </div>
                                             </td>
@@ -95,10 +95,10 @@
                                             <td>IMG002</td>
                                             <td>
                                                 <h2 class="table-avatar">
-                                                    <a href="scan-details.html" class="avatar avatar-sm me-2">
+                                                    <a href="scan-details.php" class="avatar avatar-sm me-2">
                                                         <img class="avatar-img rounded-circle" src="assets/img/skin/image.jpeg" alt="Skin Image" />
                                                     </a>
-                                                    <a href="scan-details.html">Skin Lesion 2</a>
+                                                    <a href="scan-details.php">Skin Lesion 2</a>
                                                 </h2>
                                             </td>
                                             <td>2 Feb 2024</td>
@@ -113,8 +113,8 @@
                                                     <a href="javascript:;" class="btn btn-sm bg-success-light me-2">
                                                         <i class="feather-eye"></i>
                                                     </a>
-                                                    <a href="edit-scan.html" class="btn btn-sm bg-danger-light">
-                                                        <i class="feather-edit"></i>
+                                                    <a href="" class="btn btn-sm bg-danger-light">
+                                                        <i class="feather-trash"></i>
                                                     </a>
                                                 </div>
                                             </td>
@@ -123,10 +123,10 @@
                                             <td>IMG003</td>
                                             <td>
                                                 <h2 class="table-avatar">
-                                                    <a href="scan-details.html" class="avatar avatar-sm me-2">
+                                                    <a href="scan-details.php" class="avatar avatar-sm me-2">
                                                         <img class="avatar-img rounded-circle" src="assets/img/skin/image.jpeg" alt="Skin Image" />
                                                     </a>
-                                                    <a href="scan-details.html">Skin Lesion 3</a>
+                                                    <a href="scan-details.php">Skin Lesion 3</a>
                                                 </h2>
                                             </td>
                                             <td>3 Feb 2024</td>
@@ -141,8 +141,8 @@
                                                     <a href="javascript:;" class="btn btn-sm bg-success-light me-2">
                                                         <i class="feather-eye"></i>
                                                     </a>
-                                                    <a href="edit-scan.html" class="btn btn-sm bg-danger-light">
-                                                        <i class="feather-edit"></i>
+                                                    <a href="" class="btn btn-sm bg-danger-light">
+                                                        <i class="feather-trash"></i>
                                                     </a>
                                                 </div>
                                             </td>
