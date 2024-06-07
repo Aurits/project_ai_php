@@ -117,7 +117,7 @@
                                         <td class="text-end">
                                             <div class="actions">
                                                 <a href="javascript:;" class="btn btn-sm bg-success-light me-2">
-                                                    <i class="feather-eye"></i> View
+                                                    <i class="feather-eye"></i>
                                                 </a>
                                                 <a href="#" class="btn btn-sm bg-danger-light">
                                                     <i class="feather-trash"></i>
@@ -140,7 +140,7 @@
                                         <td class="text-end">
                                             <div class="actions">
                                                 <a href="javascript:;" class="btn btn-sm bg-success-light me-2">
-                                                    <i class="feather-eye"></i> View
+                                                    <i class="feather-eye"></i>
                                                 </a>
                                                 <a href="#" class="btn btn-sm bg-danger-light">
                                                     <i class="feather-trash"></i>
@@ -163,7 +163,7 @@
                                         <td class="text-end">
                                             <div class="actions">
                                                 <a href="javascript:;" class="btn btn-sm bg-success-light me-2">
-                                                    <i class="feather-eye"></i> View
+                                                    <i class="feather-eye"></i>
                                                 </a>
                                                 <a href="#" class="btn btn-sm bg-danger-light">
                                                     <i class="feather-trash"></i>
@@ -186,7 +186,7 @@
                                         <td class="text-end">
                                             <div class="actions">
                                                 <a href="javascript:;" class="btn btn-sm bg-success-light me-2">
-                                                    <i class="feather-eye"></i> View
+                                                    <i class="feather-eye"></i>
                                                 </a>
                                                 <a href="#" class="btn btn-sm bg-danger-light">
                                                     <i class="feather-trash"></i>
