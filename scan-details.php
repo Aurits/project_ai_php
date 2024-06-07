@@ -32,7 +32,7 @@
                         </div>
                         <div class="student-profile-head">
                             <div class="profile-bg-img">
-                                <img src="assets/img/skin/image.jpeg" class="h-25" alt="Scan Background" />
+                                <img src="assets/img/skin/image.jpeg" class="img-fluid" alt="Scan Background" />
                             </div>
                             <div class="row">
                                 <div class="col-lg-4 col-md-4">
