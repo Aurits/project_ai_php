@@ -32,13 +32,13 @@
                         </div>
                         <div class="student-profile-head">
                             <div class="profile-bg-img">
-                                <img src="assets/img/scan-bg.jpg" alt="Scan Background" />
+                                <img src="assets/img/skin/image.jpeg" alt="Scan Background" />
                             </div>
                             <div class="row">
                                 <div class="col-lg-4 col-md-4">
                                     <div class="profile-user-box">
                                         <div class="profile-user-img">
-                                            <img src="assets/img/scans/scan-thumbnail.jpg" alt="Scan Thumbnail" />
+                                            <img src="assets/img/skin/image.jpeg" alt="Scan Thumbnail" />
                                             <div class="form-group students-up-files profile-edit-icon mb-0">
                                                 <div class="uplod d-flex">
                                                     <label class="file-upload profile-upbtn mb-0">
