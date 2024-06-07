@@ -2,35 +2,38 @@
 
 <div class="page-wrapper">
     <div class="content container-fluid">
+        <!-- Page Header -->
         <div class="page-header">
             <div class="row align-items-center">
                 <div class="col">
-                    <h3 class="page-title">Teachers</h3>
+                    <h3 class="page-title">Manage Scans</h3>
                     <ul class="breadcrumb">
                         <li class="breadcrumb-item">
                             <a href="index.html">Dashboard</a>
                         </li>
-                        <li class="breadcrumb-item active">Teachers</li>
+                        <li class="breadcrumb-item active">Scans</li>
                     </ul>
                 </div>
             </div>
         </div>
+        <!-- /Page Header -->
 
+        <!-- Search Form -->
         <div class="student-group-form">
             <div class="row">
                 <div class="col-lg-3 col-md-6">
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Search by ID ..." />
+                        <input type="text" class="form-control" placeholder="Search by Scan ID ..." />
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Search by Name ..." />
+                        <input type="text" class="form-control" placeholder="Search by Patient Name ..." />
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Search by Phone ..." />
+                        <input type="text" class="form-control" placeholder="Search by Scan Type ..." />
                     </div>
                 </div>
                 <div class="col-lg-2">
@@ -40,6 +43,9 @@
                 </div>
             </div>
         </div>
+        <!-- /Search Form -->
+
+        <!-- Scans Table -->
         <div class="row">
             <div class="col-sm-12">
                 <div class="card card-table">
@@ -47,14 +53,14 @@
                         <div class="page-header">
                             <div class="row align-items-center">
                                 <div class="col">
-                                    <h3 class="page-title">Teachers</h3>
+                                    <h3 class="page-title">Scans</h3>
                                 </div>
                                 <div class="col-auto text-end float-end ms-auto download-grp">
-                                    <a href="teachers.html" class="btn btn-outline-gray me-2 active"><i class="feather-list"></i></a>
-                                    <a href="teachers-grid.html" class="btn btn-outline-gray me-2"><i class="feather-grid"></i></a>
+                                    <a href="scans.html" class="btn btn-outline-gray me-2 active"><i class="feather-list"></i></a>
+                                    <a href="scans-grid.html" class="btn btn-outline-gray me-2"><i class="feather-grid"></i></a>
                                     <a href="#" class="btn btn-outline-primary me-2"><i class="fas fa-download"></i>
                                         Download</a>
-                                    <a href="add-teacher.html" class="btn btn-primary"><i class="fas fa-plus"></i></a>
+                                    <a href="add-scan.html" class="btn btn-primary"><i class="fas fa-plus"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -68,14 +74,13 @@
                                                 <input class="form-check-input" type="checkbox" value="something" />
                                             </div>
                                         </th>
-                                        <th>ID</th>
-                                        <th>Name</th>
-                                        <th>Class</th>
-                                        <th>Gender</th>
-                                        <th>Subject</th>
-                                        <th>Section</th>
-                                        <th>Mobile Number</th>
-                                        <th>Address</th>
+                                        <th>Scan ID</th>
+                                        <th>Patient Name</th>
+                                        <th>Scan Type</th>
+                                        <th>Doctor</th>
+                                        <th>Date</th>
+                                        <th>Result</th>
+                                        <th>Status</th>
                                         <th class="text-end">Action</th>
                                     </tr>
                                 </thead>
@@ -86,25 +91,24 @@
                                                 <input class="form-check-input" type="checkbox" value="something" />
                                             </div>
                                         </td>
-                                        <td>PRE2209</td>
+                                        <td>SCAN1001</td>
                                         <td>
                                             <h2 class="table-avatar">
-                                                <a href="teacher-details.html" class="avatar avatar-sm me-2"><img class="avatar-img rounded-circle" src="assets/img/profiles/avatar-02.jpg" alt="User Image" /></a>
-                                                <a href="teacher-details.html">Aaliyah</a>
+                                                <a href="scan-details.html" class="avatar avatar-sm me-2"><img class="avatar-img rounded-circle" src="assets/img/profiles/avatar-02.jpg" alt="Patient Image" /></a>
+                                                <a href="scan-details.html">John Doe</a>
                                             </h2>
                                         </td>
-                                        <td>10</td>
-                                        <td>Female</td>
-                                        <td>Mathematics</td>
-                                        <td>A</td>
-                                        <td>097 3584 5870</td>
-                                        <td>911 Deer Ridge Drive,USA</td>
+                                        <td>CT Scan</td>
+                                        <td>Dr. Smith</td>
+                                        <td>2024-06-01</td>
+                                        <td>Normal</td>
+                                        <td>Completed</td>
                                         <td class="text-end">
                                             <div class="actions">
-                                                <a href="javascript:;" class="btn btn-sm bg-success-light me-2">
+                                                <a href="scan-details.html" class="btn btn-sm bg-success-light me-2">
                                                     <i class="feather-eye"></i>
                                                 </a>
-                                                <a href="edit-teacher.html" class="btn btn-sm bg-danger-light">
+                                                <a href="edit-scan.html" class="btn btn-sm bg-danger-light">
                                                     <i class="feather-edit"></i>
                                                 </a>
                                             </div>
@@ -116,270 +120,30 @@
                                                 <input class="form-check-input" type="checkbox" value="something" />
                                             </div>
                                         </td>
-                                        <td>PRE2213</td>
+                                        <td>SCAN1002</td>
                                         <td>
                                             <h2 class="table-avatar">
-                                                <a href="teacher-details.html" class="avatar avatar-sm me-2"><img class="avatar-img rounded-circle" src="assets/img/profiles/avatar-03.jpg" alt="User Image" /></a>
-                                                <a href="teacher-details.html">Malynne</a>
+                                                <a href="scan-details.html" class="avatar avatar-sm me-2"><img class="avatar-img rounded-circle" src="assets/img/profiles/avatar-03.jpg" alt="Patient Image" /></a>
+                                                <a href="scan-details.html">Jane Smith</a>
                                             </h2>
                                         </td>
-                                        <td>8</td>
-                                        <td>Female</td>
-                                        <td>Physics</td>
-                                        <td>A</td>
-                                        <td>242 362 3100</td>
-                                        <td>Bacardi Rd P.O. Box N-4880, New Providence</td>
+                                        <td>MRI</td>
+                                        <td>Dr. Johnson</td>
+                                        <td>2024-06-05</td>
+                                        <td>Abnormal</td>
+                                        <td>Pending</td>
                                         <td class="text-end">
                                             <div class="actions">
-                                                <a href="javascript:;" class="btn btn-sm bg-success-light me-2">
+                                                <a href="scan-details.html" class="btn btn-sm bg-success-light me-2">
                                                     <i class="feather-eye"></i>
                                                 </a>
-                                                <a href="edit-teacher.html" class="btn btn-sm bg-danger-light">
+                                                <a href="edit-scan.html" class="btn btn-sm bg-danger-light">
                                                     <i class="feather-edit"></i>
                                                 </a>
                                             </div>
                                         </td>
                                     </tr>
-                                    <tr>
-                                        <td>
-                                            <div class="form-check check-tables">
-                                                <input class="form-check-input" type="checkbox" value="something" />
-                                            </div>
-                                        </td>
-                                        <td>PRE2143</td>
-                                        <td>
-                                            <h2 class="table-avatar">
-                                                <a href="teacher-details.html" class="avatar avatar-sm me-2"><img class="avatar-img rounded-circle" src="assets/img/profiles/avatar-04.jpg" alt="User Image" /></a>
-                                                <a href="teacher-details.html">Levell Scott</a>
-                                            </h2>
-                                        </td>
-                                        <td>10</td>
-                                        <td>Male</td>
-                                        <td>Science</td>
-                                        <td>B</td>
-                                        <td>026 7318 4366</td>
-                                        <td>P.O. Box: 41, Gaborone</td>
-                                        <td class="text-end">
-                                            <div class="actions">
-                                                <a href="javascript:;" class="btn btn-sm bg-success-light me-2">
-                                                    <i class="feather-eye"></i>
-                                                </a>
-                                                <a href="edit-teacher.html" class="btn btn-sm bg-danger-light">
-                                                    <i class="feather-edit"></i>
-                                                </a>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div class="form-check check-tables">
-                                                <input class="form-check-input" type="checkbox" value="something" />
-                                            </div>
-                                        </td>
-                                        <td>PRE2431</td>
-                                        <td>
-                                            <h2 class="table-avatar">
-                                                <a href="teacher-details.html" class="avatar avatar-sm me-2"><img class="avatar-img rounded-circle" src="assets/img/profiles/avatar-05.jpg" alt="User Image" /></a>
-                                                <a href="teacher-details.html">Minnie</a>
-                                            </h2>
-                                        </td>
-                                        <td>11</td>
-                                        <td>Male</td>
-                                        <td>History</td>
-                                        <td>C</td>
-                                        <td>952 512 4909</td>
-                                        <td>4771 Oral Lake Road, Golden Valley</td>
-                                        <td class="text-end">
-                                            <div class="actions">
-                                                <a href="javascript:;" class="btn btn-sm bg-success-light me-2">
-                                                    <i class="feather-eye"></i>
-                                                </a>
-                                                <a href="edit-teacher.html" class="btn btn-sm bg-danger-light">
-                                                    <i class="feather-edit"></i>
-                                                </a>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div class="form-check check-tables">
-                                                <input class="form-check-input" type="checkbox" value="something" />
-                                            </div>
-                                        </td>
-                                        <td>PRE1534</td>
-                                        <td>
-                                            <h2 class="table-avatar">
-                                                <a href="teacher-details.html" class="avatar avatar-sm me-2"><img class="avatar-img rounded-circle" src="assets/img/profiles/avatar-06.jpg" alt="User Image" /></a>
-                                                <a href="teacher-details.html">Lois A</a>
-                                            </h2>
-                                        </td>
-                                        <td>10</td>
-                                        <td>Female</td>
-                                        <td>English</td>
-                                        <td>B</td>
-                                        <td>413 289 1314</td>
-                                        <td>2844 Leverton Cove Road, Palmer</td>
-                                        <td class="text-end">
-                                            <div class="actions">
-                                                <a href="javascript:;" class="btn btn-sm bg-success-light me-2">
-                                                    <i class="feather-eye"></i>
-                                                </a>
-                                                <a href="edit-teacher.html" class="btn btn-sm bg-danger-light">
-                                                    <i class="feather-edit"></i>
-                                                </a>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div class="form-check check-tables">
-                                                <input class="form-check-input" type="checkbox" value="something" />
-                                            </div>
-                                        </td>
-                                        <td>PRE2153</td>
-                                        <td>
-                                            <h2 class="table-avatar">
-                                                <a href="teacher-details.html" class="avatar avatar-sm me-2"><img class="avatar-img rounded-circle" src="assets/img/profiles/avatar-07.jpg" alt="User Image" /></a>
-                                                <a href="teacher-details.html">Calvin</a>
-                                            </h2>
-                                        </td>
-                                        <td>9</td>
-                                        <td>Male</td>
-                                        <td>Mathematics</td>
-                                        <td>C</td>
-                                        <td>701 753 3810</td>
-                                        <td>1900 Hidden Meadow Drive, Crete</td>
-                                        <td class="text-end">
-                                            <div class="actions">
-                                                <a href="javascript:;" class="btn btn-sm bg-success-light me-2">
-                                                    <i class="feather-eye"></i>
-                                                </a>
-                                                <a href="edit-teacher.html" class="btn btn-sm bg-danger-light">
-                                                    <i class="feather-edit"></i>
-                                                </a>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div class="form-check check-tables">
-                                                <input class="form-check-input" type="checkbox" value="something" />
-                                            </div>
-                                        </td>
-                                        <td>PRE1434</td>
-                                        <td>
-                                            <h2 class="table-avatar">
-                                                <a href="teacher-details.html" class="avatar avatar-sm me-2"><img class="avatar-img rounded-circle" src="assets/img/profiles/avatar-08.jpg" alt="User Image" /></a>
-                                                <a href="teacher-details.html">Vincent</a>
-                                            </h2>
-                                        </td>
-                                        <td>10</td>
-                                        <td>Male</td>
-                                        <td>Mathematics</td>
-                                        <td>C</td>
-                                        <td>402 221 7523</td>
-                                        <td>3979 Ashwood Drive, Omaha</td>
-                                        <td class="text-end">
-                                            <div class="actions">
-                                                <a href="javascript:;" class="btn btn-sm bg-success-light me-2">
-                                                    <i class="feather-eye"></i>
-                                                </a>
-                                                <a href="edit-teacher.html" class="btn btn-sm bg-danger-light">
-                                                    <i class="feather-edit"></i>
-                                                </a>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div class="form-check check-tables">
-                                                <input class="form-check-input" type="checkbox" value="something" />
-                                            </div>
-                                        </td>
-                                        <td>PRE2345</td>
-                                        <td>
-                                            <h2 class="table-avatar">
-                                                <a href="teacher-details.html" class="avatar avatar-sm me-2"><img class="avatar-img rounded-circle" src="assets/img/profiles/avatar-09.jpg" alt="User Image" /></a>
-                                                <a href="teacher-details.html">Kozma  Tatari</a>
-                                            </h2>
-                                        </td>
-                                        <td>9</td>
-                                        <td>Female</td>
-                                        <td>Science</td>
-                                        <td>A</td>
-                                        <td>04 2239 968</td>
-                                        <td>Rruga E Kavajes, Condor Center, Tirana</td>
-                                        <td class="text-end">
-                                            <div class="actions">
-                                                <a href="javascript:;" class="btn btn-sm bg-success-light me-2">
-                                                    <i class="feather-eye"></i>
-                                                </a>
-                                                <a href="edit-teacher.html" class="btn btn-sm bg-danger-light">
-                                                    <i class="feather-edit"></i>
-                                                </a>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div class="form-check check-tables">
-                                                <input class="form-check-input" type="checkbox" value="something" />
-                                            </div>
-                                        </td>
-                                        <td>PRE2365</td>
-                                        <td>
-                                            <h2 class="table-avatar">
-                                                <a href="teacher-details.html" class="avatar avatar-sm me-2"><img class="avatar-img rounded-circle" src="assets/img/profiles/avatar-10.jpg" alt="User Image" /></a>
-                                                <a href="teacher-details.html">John Chambers</a>
-                                            </h2>
-                                        </td>
-                                        <td>11</td>
-                                        <td>Male</td>
-                                        <td>Botony</td>
-                                        <td>B</td>
-                                        <td>870 663 2334</td>
-                                        <td>4667 Sunset Drive, Pine Bluff</td>
-                                        <td class="text-end">
-                                            <div class="actions">
-                                                <a href="javascript:;" class="btn btn-sm bg-success-light me-2">
-                                                    <i class="feather-eye"></i>
-                                                </a>
-                                                <a href="edit-teacher.html" class="btn btn-sm bg-danger-light">
-                                                    <i class="feather-edit"></i>
-                                                </a>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div class="form-check check-tables">
-                                                <input class="form-check-input" type="checkbox" value="something" />
-                                            </div>
-                                        </td>
-                                        <td>PRE1234</td>
-                                        <td>
-                                            <h2 class="table-avatar">
-                                                <a href="teacher-details.html" class="avatar avatar-sm me-2"><img class="avatar-img rounded-circle" src="assets/img/profiles/avatar-11.jpg" alt="User Image" /></a>
-                                                <a href="teacher-details.html">Nathan Humphries</a>
-                                            </h2>
-                                        </td>
-                                        <td>10</td>
-                                        <td>Male</td>
-                                        <td>Biology</td>
-                                        <td>A</td>
-                                        <td>077 3499 9959</td>
-                                        <td>86 Lamphey Road, Thelnetham</td>
-                                        <td class="text-end">
-                                            <div class="actions">
-                                                <a href="javascript:;" class="btn btn-sm bg-success-light me-2">
-                                                    <i class="feather-eye"></i>
-                                                </a>
-                                                <a href="edit-teacher.html" class="btn btn-sm bg-danger-light">
-                                                    <i class="feather-edit"></i>
-                                                </a>
-                                            </div>
-                                        </td>
-                                    </tr>
+                                    <!-- More rows can be added here -->
                                 </tbody>
                             </table>
                         </div>
@@ -387,11 +151,14 @@
                 </div>
             </div>
         </div>
+        <!-- /Scans Table -->
     </div>
 
+    <!-- Footer -->
     <footer>
-        <p>Copyright © 2022 Dreamguys.</p>
+        <p>Copyright © 2024 YourCompany.</p>
     </footer>
+    <!-- /Footer -->
 </div>
 
 <?php include 'footer.php'; ?>
