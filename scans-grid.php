@@ -83,13 +83,13 @@
                                         <div class="card-body">
                                             <div class="student-box flex-fill">
                                                 <div class="student-img">
-                                                    <a href="teacher-details.html">
-                                                        <img class="img-fluid" alt="Students Info" src="assets/img/profiles/avatar-04.jpg" />
+                                                    <a href="scan-details.php">
+                                                        <img class="img-fluid" alt="Students Info" src="assets/img/skin/disease.jpg" />
                                                     </a>
                                                 </div>
                                                 <div class="student-content pb-0">
                                                     <h5>
-                                                        <a href="teacher-details.html">Scan 101</a>
+                                                        <a href="scan-details.php">Scan 101</a>
                                                     </h5>
                                                     <h6>Type: X-Ray</h6>
                                                     <p>Date: 2024-06-01</p>
@@ -104,13 +104,13 @@
                                         <div class="card-body">
                                             <div class="student-box flex-fill">
                                                 <div class="student-img">
-                                                    <a href="teacher-details.html">
-                                                        <img class="img-fluid" alt="Students Info" src="assets/img/profiles/avatar-03.jpg" />
+                                                    <a href="scan-details.php">
+                                                        <img class="img-fluid" alt="Students Info" src="assets/img/skin/disease1.jpg" />
                                                     </a>
                                                 </div>
                                                 <div class="student-content pb-0">
                                                     <h5>
-                                                        <a href="teacher-details.html">Scan 101</a>
+                                                        <a href="scan-details.php">Scan 101</a>
                                                     </h5>
                                                     <h6>Type: X-Ray</h6>
                                                     <p>Date: 2024-06-01</p>
@@ -125,13 +125,13 @@
                                         <div class="card-body">
                                             <div class="student-box flex-fill">
                                                 <div class="student-img">
-                                                    <a href="teacher-details.html">
-                                                        <img class="img-fluid" alt="Students Info" src="assets/img/profiles/avatar-02.jpg" />
+                                                    <a href="scan-details.php">
+                                                        <img class="img-fluid" alt="Students Info" src="assets/img/skin/image.jpeg" />
                                                     </a>
                                                 </div>
                                                 <div class="student-content pb-0">
                                                     <h5>
-                                                        <a href="teacher-details.html">Scan 101</a>
+                                                        <a href="scan-details.php">Scan 101</a>
                                                     </h5>
                                                     <h6>Type: X-Ray</h6>
                                                     <p>Date: 2024-06-01</p>
