@@ -63,7 +63,7 @@
                                             <div class="student-box flex-fill">
                                                 <div class="student-img">
                                                     <a href="teacher-details.html">
-                                                        <img class="img-fluid" alt="Students Info" src="assets/img/profiles/avatar-06.jpg" />
+                                                        <img class="img-fluid" alt="Students Info" src="assets/img/skin/image.jpeg" />
                                                     </a>
                                                 </div>
                                                 <div class="student-content pb-0">
