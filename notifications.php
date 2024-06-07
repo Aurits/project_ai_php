@@ -55,7 +55,7 @@
                                     <a href="#" class="btn btn-outline-primary me-2">
                                         <i class="fas fa-download"></i> Download
                                     </a>
-                                    <a href="add-notification.html" class="btn btn-primary">
+                                    <a href="add-notification.php" class="btn btn-primary">
                                         <i class="fas fa-plus"></i> Add Notification
                                     </a>
                                 </div>
